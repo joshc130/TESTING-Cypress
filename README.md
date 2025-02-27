@@ -32,5 +32,8 @@ Consult Cypress documentation if test failures or configuration errors occur.
 Contributing
 Contributions to the Quiz Application are welcome. If you have suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
 
+## Walkthrough Video
+https://drive.google.com/file/d/1tZ0lEGHeuaY3dLEucDwUQ42ydq9oHEj_/view?usp=drive_link
+
 ##License
 This project is licensed under the MIT License.
