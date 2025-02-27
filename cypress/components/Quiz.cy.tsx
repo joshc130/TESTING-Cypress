@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 import React from 'react'
-import Quiz from '../../client/src/components/Quiz'
+import Quiz from '../../client/src/components/Quiz.tsx'
 
 describe('Quiz Component', () => {
   it('renders the start button', () => {
