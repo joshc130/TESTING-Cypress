@@ -2,14 +2,14 @@ import db from '../config/connection.js';
 import { Question } from '../models/index.js'
 import cleanDB from './cleanDb.js';
 
-import questionData from './pythonQuestions.json' assert{ type: 'json'};
+import { pythonQuestions } from './pythonQuestions.js';
 
 try {
   await db();
   await cleanDB();
 
   // bulk create each model
-  await Question.insertMany(questionData);
+  await Question.insertMany(pythonQuestions);
 
   console.log('Seeding completed successfully!');
   process.exit(0);
